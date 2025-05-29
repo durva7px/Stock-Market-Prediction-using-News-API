@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Analysis & Predictions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <!-- Nav bar -->
+         <div class="ticker">
+            <span class="ticker-text">
+                Stock market predictions are based on analysis and are inherently speculative. Past performance is not indicative of future results. Consider all the relevant factors before investing.
+              </span>
+         </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="heading1">
+            <img src="Media/increase.png" alt="increase.png">
+            <h1>Stock Sentiment Analysis<span><br>& Predictions</span></h1>
+        </div>
+        
+        <div class="heading2">
+            <p>Enter a stock symbol to get news sentiment and stock predictions:</p>
+        </div>
+        <input type="text" id="stockSymbol" placeholder="Enter stock symbol (e.g., AAPL)">
+        <br>
+        <button onclick="analyzeStock()">Analyze Stock</button>
+    </div>
+
+
+    <!-- Results -->
+    <div class="results" id="results">
+        <!-- Results will be displayed here -->
+    </div>
+
+   <!-- <input type="text"> --> 
+        
+<!-- Footer -->
+ <div class="footer">
+    <div class="copyright">
+        <!-- copyright -->
+         <h4>All rights reserved 2024 ©</h4>
+      </div>
+</div>
+
+ <script src="script.js"></script>
+            
+
+</body>
+</html>
