@@ -29,7 +29,7 @@ const trendingStocks = data.trending_stocks.map(stock => `<li>${stock}</li>`).jo
 // Display stock insights
 const stockInsights = `
 <div class="insights">
-    <h4>Stock Insights for ${data.stock}:</h4>
+    <h4>Stock Insights for ${data.symbol}:</h4>
     <p>Current Price: $${data.current_price}</p>
     <p>Market Cap: $${data.market_cap}</p>
     <p>52-Week High: $${data.high_52_week}</p>
